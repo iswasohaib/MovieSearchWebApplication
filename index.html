@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Movie Search</h1>
+    <div class="search-container">
+      <input type="text" id="movieName" placeholder="Movie Name" />
+      <input type="text" id="yearLaunched" placeholder="Year Launched" />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="movieContainer">
+      <ul id="movieList"></ul>
+      <div id="errorPopup" class="popup">
+        <p id="errorMessage"></p>
+        <button id="closePopupBtn">Close</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
